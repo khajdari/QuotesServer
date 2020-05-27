@@ -24,6 +24,14 @@
 						<goals>
 							<goal>single</goal>
 						</goals>
+						<configuration>
+							<archive>
+								<manifest>
+									<addClasspath>true</addClasspath>
+									<mainClass>QuotesServer</mainClass>
+								</manifest>
+							</archive>
+						</configuration>
 					</execution>
 				</executions>
 				<configuration>
